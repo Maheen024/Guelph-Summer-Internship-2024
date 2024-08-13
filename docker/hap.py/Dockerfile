@@ -7,31 +7,31 @@ ENV DEBIAN_FRONTEND=noninteractive
 # Update the package list and install required packages
 RUN apt-get update && \
     apt-get install -y \
-        autoconf \                  # Tool for generating configuration scripts
-        build-essential \            # Essential tools for building software
-        bzip2 \                      # Compression tool
-        cmake \                      # Cross-platform build system
-        cython \                     # Python-to-C compiler
-        git \                        # Version control system
-        libbz2-dev \                 # Development files for Bzip2
-        libncurses5-dev \            # Development files for ncurses (terminal handling library)
-        openjdk-8-jdk \              # Java Development Kit
-        pkg-config \                 # Tool for managing library compile/link flags
-        python \                     # Python interpreter
-        python2.7 \                  # Python 2.7 interpreter
-        python2.7-dev \              # Development files for Python 2.7
-        python-setuptools \          # Python package management tool
-        python-pip \                 # Python package installer
-        python-psutil \              # Process and system utilities for Python
-        python-numpy \               # Numerical computations in Python
-        python-pandas \              # Data analysis library in Python
-        python-distribute \          # Deprecated package distribution tool for Python
-        python-pysam \               # Python interface for SAM/BAM sequence alignment files
-        python-scipy \               # Scientific computation library in Python
-        software-properties-common \ # Manage software repositories
-        wget \                       # Command-line utility for downloading files
-        zlib1g-dev && \              # Compression library
-    apt-get clean -y                 # Clean up package cache
+        autoconf \                  
+        build-essential \           
+        bzip2 \                     
+        cmake \                      
+        cython \                    
+        git \                      
+        libbz2-dev \                 
+        libncurses5-dev \           
+        openjdk-8-jdk \              
+        pkg-config \                
+        python \                     
+        python2.7 \                
+        python2.7-dev \              
+        python-setuptools \         
+        python-pip \                
+        python-psutil \             
+        python-numpy \               
+        python-pandas \              
+        python-distribute \          
+        python-pysam \              
+        python-scipy \              
+        software-properties-common \ 
+        wget \                      
+        zlib1g-dev && \              
+    apt-get clean -y                
 
 # Install additional Python package required by hap.py
 RUN pip install bx-python
