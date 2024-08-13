@@ -8,16 +8,15 @@ During the internship, the primary task was to validate variant identification p
 
 ## Repository Structure
 
-Workflows: Contains the WDL scripts used for various validation tasks.
-Dockerfiles: Includes Docker configurations to create reproducible environments for running the workflows.
++ Workflows: Contains the WDL scripts used for various validation tasks.
++ Dockerfiles: Includes Docker configurations to create reproducible environments for running the workflows.
 
 ## Getting Started
 
 To run the workflows in this repository, you will need to have the following installed:
 
-WDL: The Workflow Description Language for running the scripts.
-Cromwell: A workflow execution engine that supports WDL.
-Docker: To ensure that the workflows run in a consistent environment across different systems.
++ Cromwell: A workflow execution engine that supports WDL.
++ Docker: To ensure that the workflows run in a consistent environment across different systems.
 
 ## Acknowledgments
 
