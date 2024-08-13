@@ -10,6 +10,8 @@ During the internship, the primary task was to validate variant identification p
 
 + Workflows: Contains the WDL scripts used for various validation tasks.
 + Dockerfiles: Includes Docker configurations to create reproducible environments for running the workflows.
++ Inputs: Contains a json file that specifies inputs required for the run
+
 
 ## Getting Started
 
